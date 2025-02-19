@@ -1,0 +1,48 @@
+# Sanal ortam dosyaları
+myenv/
+env/
+venv/
+
+# __pycache__ ve derlenmiş Python dosyaları
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+
+# TensorFlow ve diğer büyük kütüphane dosyaları
+myenv/lib/python*/site-packages/tensorflow/
+myenv/lib/python*/site-packages/clang/
+
+# Test dosyaları ve büyük resimler
+test_images/
+test_api.py
+
+# VS Code ve IDE ayarları
+.vscode/
+*.swp
+*.swo
+*.idea/
+
+# Log dosyaları
+*.log
+*.out
+*.pid
+*.sock
+*.db
+
+# Derleme çıktıları
+build/
+dist/
+*.egg-info/
+
+# Docker geçici dosyaları
+docker-compose.override.yml
+
+# Büyük medya veya sıkıştırılmış dosyalar
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wav
+*.zip
+*.tar
+*.gz
