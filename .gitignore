@@ -32,3 +32,7 @@ docker-compose.override.yml
 .vscode/
 .idea/
 *.iml
+
+myenv/
+myenv/lib/
+myenv/lib/python3.10/site-packages/myenv/
